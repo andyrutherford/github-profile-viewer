@@ -12,4 +12,4 @@ http.createServer(function (request, response) {
 
 //Assign port dynamically or localhost:3000
 }).listen(process.env.PORT || 3000);
-console.log('Server running at https://fathomless-dawn-51692.herokuapp.com/ or http://localhost:3000/');
+console.log('Server running at https://gh-profile-viewer.herokuapp.com/ or http://localhost:3000/');
