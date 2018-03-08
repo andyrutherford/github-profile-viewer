@@ -2,13 +2,14 @@
 
     <img src="{{avatarURL}}" alt="Avatar" id="avatar">
 
-    <p><span>@{{username}}</span></p>
-    <p><span>{{name}}</span></p>
-    <p><span>{{website}}</span></p>
+    <p id="username"><span>@{{username}}</span></p>
+    <p id="name"><span>{{name}}</span></p>
+    <p id="location"><span>{{location}}</span></p>
 
     <ul>
-        <li><span>{{repos}}</span> Public Repos</li>
-        <li><span>{{followers}}</span> followers</li>
+        <li id="website"><span>{{website}}</span></li> 
+        <li id="repos"><span>{{repos}}</span> Public Repos</li>
+        <li id="followers"><span>{{followers}}</span> followers</li>
         <li><a href="/">search again</a></li>
     </ul>
 

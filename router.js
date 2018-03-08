@@ -50,6 +50,7 @@ function user(request, response) {
         avatarURL:        profileJSON.avatar_url,
         username:         profileJSON.login,
         name:             profileJSON.name,
+        location:         profileJSON.location,
         website:          profileJSON.blog,
         repos:            profileJSON.public_repos,
         followers:        profileJSON.followers

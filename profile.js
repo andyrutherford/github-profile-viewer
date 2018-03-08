@@ -2,7 +2,6 @@ var EventEmitter = require("events").EventEmitter;
 var https = require("https");
 var http = require("http");
 var util = require("util");
-var ua = require('default-user-agent');
 
 /**
  * An EventEmitter to get a Github user profile.
